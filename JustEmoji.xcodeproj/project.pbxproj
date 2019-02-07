@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2972EC7F220C7A7E00DA2765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972EC7E220C7A7E00DA2765 /* AppDelegate.swift */; };
-		2972EC81220C7A7E00DA2765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972EC80220C7A7E00DA2765 /* ViewController.swift */; };
 		2972EC83220C7A8000DA2765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2972EC82220C7A8000DA2765 /* Assets.xcassets */; };
 		2972EC86220C7A8000DA2765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2972EC84220C7A8000DA2765 /* Main.storyboard */; };
 		2972EC92220C7A8000DA2765 /* JustEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972EC91220C7A8000DA2765 /* JustEmojiTests.swift */; };
 		2972EC9D220C7A8000DA2765 /* JustEmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972EC9C220C7A8000DA2765 /* JustEmojiUITests.swift */; };
+		2972ECAB220C7E9F00DA2765 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972ECAA220C7E9F00DA2765 /* Emoji.swift */; };
+		2972ECAD220C7ED100DA2765 /* EmojiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972ECAC220C7ED100DA2765 /* EmojiConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2972EC7B220C7A7E00DA2765 /* JustEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2972EC7E220C7A7E00DA2765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2972EC80220C7A7E00DA2765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2972EC82220C7A8000DA2765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2972EC85220C7A8000DA2765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2972EC87220C7A8000DA2765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +46,8 @@
 		2972EC98220C7A8000DA2765 /* JustEmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustEmojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2972EC9C220C7A8000DA2765 /* JustEmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEmojiUITests.swift; sourceTree = "<group>"; };
 		2972EC9E220C7A8000DA2765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2972ECAA220C7E9F00DA2765 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		2972ECAC220C7ED100DA2765 /* EmojiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				2972EC7E220C7A7E00DA2765 /* AppDelegate.swift */,
-				2972EC80220C7A7E00DA2765 /* ViewController.swift */,
 				2972EC82220C7A8000DA2765 /* Assets.xcassets */,
 				2972EC84220C7A8000DA2765 /* Main.storyboard */,
 				2972EC87220C7A8000DA2765 /* Info.plist */,
 				2972EC88220C7A8000DA2765 /* JustEmoji.entitlements */,
+				2972ECAA220C7E9F00DA2765 /* Emoji.swift */,
+				2972ECAC220C7ED100DA2765 /* EmojiConstants.swift */,
 			);
 			path = JustEmoji;
 			sourceTree = "<group>";
@@ -254,7 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2972EC81220C7A7E00DA2765 /* ViewController.swift in Sources */,
+				2972ECAD220C7ED100DA2765 /* EmojiConstants.swift in Sources */,
+				2972ECAB220C7E9F00DA2765 /* Emoji.swift in Sources */,
 				2972EC7F220C7A7E00DA2765 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

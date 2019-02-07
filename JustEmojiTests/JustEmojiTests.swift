@@ -1,10 +1,5 @@
-//
-//  JustEmojiTests.swift
-//  JustEmojiTests
-//
-//  Created by okano on 2019/02/07.
-//  Copyright © 2019 ryookano. All rights reserved.
-//
+//  Copyright © 2019 Jean-JacquesSaurel. All rights reserved.
+
 
 import XCTest
 @testable import JustEmoji
